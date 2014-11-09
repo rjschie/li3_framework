@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Application &gt; <?php echo $this->title(); ?></title>
 	<?php echo $this->html->style( array(
-		'min/app.css',
+		'app.css',
 	)); ?>
 	<?php echo $this->html->link('Icon', null, array('type' => 'icon')); ?>
 </head>
@@ -18,11 +18,11 @@
 
 <!-- SCRIPTS -->
 <?php echo $this->html->script( array(
-	'min/jquery.min.js',
-	'min/modernizr.js',
+	'jquery.min.js',
+	'modernizr.js',
 //	'//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js',	// TODO PRODUCTION: uncomment
 //	'//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js',
-	'min/app-ck.js',
+	'app.min.js',
 )); ?>
 </body>
 </html>

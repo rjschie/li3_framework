@@ -12,7 +12,7 @@ $path = Libraries::get(true, 'path');
 		'li3/bootstrap.min.css',
 		'li3/normalize.css',
 		'li3/lithified.css',
-		'min/app.css',
+		'app.css',
 	)); ?>
 	<?php echo $this->html->link('Icon', null, array('type' => 'icon')); ?>
 </head>
@@ -39,7 +39,7 @@ $path = Libraries::get(true, 'path');
 </main>
 
 <?php echo $this->html->script(array(
-	'min/jquery.min.js',
+	'jquery.min.js',
 	'li3/bootstrap.min.js'
 )); ?>
 </body>
