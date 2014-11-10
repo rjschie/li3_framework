@@ -14,6 +14,7 @@ mv $ProjectName/.idea/li3_framework.iml $ProjectName/.idea/$ProjectName.iml
 sed -i '' "s/li3_framework/$ProjectName/g" $ProjectName/.idea/.name
 sed -i '' "s/li3_framework/$ProjectName/g" $ProjectName/.idea/modules.xml
 sed -i '' "s/li3_framework/$ProjectName/g" $ProjectName/.idea/workspace.xml
+sed -i '' "s/my_db/project_$ProjectName/g" $ProjectName/resources/sql/createDB.sql
 cd $ProjectName
 git init 
 git add -A && git commit -m "Initial Commit"
