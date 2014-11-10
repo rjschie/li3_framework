@@ -1,9 +1,13 @@
 /.codekit-cache.DS_Store
 /_design
 resources/tmp/cache/templates/*
+!resources/tmp/cache/templates/empty
 resources/tmp/db/*
+!resources/tmp/db/empty
 resources/tmp/logs/*
+!resources/tmp/logs/empty
 resources/tmp/tests/*
+!resources/tmp/tests/empty
 .*.sw[op]
 .sass-cache
 *.scssc
