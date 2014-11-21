@@ -59,8 +59,8 @@ define('LITHIUM_APP_PATH', dirname(dirname(__DIR__)));
  * directory as your application.  If you use the same libraries in multiple applications, you can
  * set this to a shared path on your server.
  */
-// define('LITHIUM_LIBRARY_PATH', dirname(LITHIUM_APP_PATH) . '/libraries');
-define('LITHIUM_LIBRARY_PATH', dirname('/Users/ryanschie/_Web/data/li3_libs/lithium'));
+// define('LITHIUM_LIBRARY_PATH', dirname('/Users/ryanschie/_Web/data/li3_libs/lithium'));
+define('LITHIUM_LIBRARY_PATH', dirname('/var/www/http/_libs/li3_libs/lithium'));
 
 /**
  * Locate and load Lithium core library files.  Throws a fatal error if the core can't be found.
